@@ -1,0 +1,28 @@
+2022-01-21 19:38:50,014 INFO o.s.b.StartupInfoLogger [main] Starting ProjektJavaApplication using Java 17.0.1 on VEGA-Komputer with PID 10132 (E:\WazneDokumenty\JavaPrograms\ProjektJava\target\classes started by vega0 in E:\WazneDokumenty\JavaPrograms\ProjektJava)
+2022-01-21 19:38:50,202 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2022-01-21 19:38:50,207 INFO o.s.b.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-21 19:38:58,902 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-21 19:38:59,866 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 878 ms. Found 1 JPA repository interfaces.
+2022-01-21 19:39:10,617 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2022-01-21 19:39:11,554 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2022-01-21 19:39:11,555 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2022-01-21 19:39:11,556 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2022-01-21 19:39:14,503 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-01-21 19:39:14,504 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 23433 ms
+2022-01-21 19:39:14,794 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2022-01-21 19:39:29,320 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-01-21 19:39:29,330 INFO o.s.b.a.h.H2ConsoleAutoConfiguration [main] H2 console available at '/console'. Database available at 'jdbc:h2:file:./bazaDanych1'
+2022-01-21 19:39:34,785 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-21 19:39:40,456 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-01-21 19:39:55,473 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-21 19:40:00,921 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-01-21 19:40:15,444 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-21 19:40:15,484 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-21 19:40:19,108 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-01-21 19:40:22,767 INFO o.s.b.a.w.s.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2022-01-21 19:40:24,718 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2022-01-21 19:40:25,435 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-21 19:40:25,529 INFO o.s.b.StartupInfoLogger [main] Started ProjektJavaApplication in 103.926 seconds (JVM running for 117.795)
+2022-01-21 19:48:22,979 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-21 19:48:23,014 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-01-21 19:48:23,043 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.

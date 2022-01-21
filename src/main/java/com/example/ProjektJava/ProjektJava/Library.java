@@ -3,21 +3,28 @@ package com.example.ProjektJava.ProjektJava;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.context.event.EventListener;
+import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Component;
+
+import java.util.Arrays;
 
 @Component
 public class Library {
 
     private BookRepository bookRepository;
+    private JdbcTemplate jdbcTemplate;
 
 
     @Autowired
-    public Library(BookRepository bookRepository) {
+    public Library(BookRepository bookRepository, JdbcTemplate jdbcTemplate) {
         this.bookRepository = bookRepository;
+        this.jdbcTemplate = jdbcTemplate;
     }
 
     @EventListener(ApplicationReadyEvent.class)
     private void run() {
+
+        //initDb();
 
         Book book1 = new Book("Sztorm stulecia", "Stephen King", "9788380972322", BookType.HORROR,
                 "Little Tall, mała wyspa u wybrzeży stanu Maine, przygotowuje się do nadejścia zimowej burzy, " +
@@ -83,4 +90,19 @@ public class Library {
         bookRepository.save(book7);
 
     }
+
+    private void initDb() {
+        System.out.println(String.format("****** Creating table: %s, and Inserting test data ******", "Book"));
+
+        String sqlStatements[] = {
+                "drop table book if exists",
+                "create table book(id serial,type varchar(50), title varchar(255),production varchar(255), description text)",
+        };
+
+        Arrays.asList(sqlStatements).stream().forEach(sql -> {
+            System.out.println(sql);
+            jdbcTemplate.execute(sql);
+        });
+    }
+
 }

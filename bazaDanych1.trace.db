@@ -1,8 +1,0 @@
-2022-01-04 18:25:06 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLSyntaxErrorException: Błąd składniowy w wyrażeniu SQL "CREATE TABLE BOOK (ID BIGINT NOT NULL, AUTHOR VARCHAR(255), BOOK_TYPE VARCHAR(255), DESCRIPTION VARCHAR(600), IBSN VARCHAR(255), 111[*]AAAA VARCHAR(255), PRIMARY KEY (ID))"; oczekiwano "identifier"
-Syntax error in SQL statement "CREATE TABLE BOOK (ID BIGINT NOT NULL, AUTHOR VARCHAR(255), BOOK_TYPE VARCHAR(255), DESCRIPTION VARCHAR(600), IBSN VARCHAR(255), 111[*]AAAA VARCHAR(255), PRIMARY KEY (ID))"; expected "identifier"; SQL statement:
-create table book (id bigint not null, author varchar(255), book_type varchar(255), description varchar(600), ibsn varchar(255), 111aaaa varchar(255), primary key (id)) [42001-200]
-2022-01-04 18:25:08 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabela "BOOK" nie istnieje
-Table "BOOK" not found; SQL statement:
-insert into book (author, book_type, description, ibsn, 111aaaa, id) values (?, ?, ?, ?, ?, ?) [42102-200]

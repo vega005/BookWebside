@@ -1,0 +1,31 @@
+2022-01-21 18:40:10,215 INFO o.s.b.StartupInfoLogger [main] Starting ProjektJavaApplication using Java 17.0.1 on VEGA-Komputer with PID 10072 (E:\WazneDokumenty\JavaPrograms\ProjektJava\target\classes started by vega0 in E:\WazneDokumenty\JavaPrograms\ProjektJava)
+2022-01-21 18:40:10,375 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2022-01-21 18:40:10,380 INFO o.s.b.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-21 18:40:13,427 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-21 18:40:13,631 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 150 ms. Found 1 JPA repository interfaces.
+2022-01-21 18:40:15,709 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2022-01-21 18:40:15,771 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2022-01-21 18:40:15,771 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2022-01-21 18:40:15,771 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2022-01-21 18:40:16,099 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-01-21 18:40:16,099 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 5437 ms
+2022-01-21 18:40:16,240 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2022-01-21 18:40:16,990 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-01-21 18:40:17,021 INFO o.s.b.a.h.H2ConsoleAutoConfiguration [main] H2 console available at '/console'. Database available at 'jdbc:h2:file:./bazaDanych1'
+2022-01-21 18:40:17,698 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-21 18:40:17,948 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-01-21 18:40:18,920 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-21 18:40:19,540 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-01-21 18:40:21,512 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-21 18:40:21,535 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-21 18:40:22,978 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-01-21 18:40:23,578 INFO o.s.b.a.w.s.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2022-01-21 18:40:23,980 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2022-01-21 18:40:24,108 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-21 18:40:24,130 INFO o.s.b.StartupInfoLogger [main] Started ProjektJavaApplication in 15.953 seconds (JVM running for 21.883)
+2022-01-21 18:40:29,437 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-21 18:40:29,437 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-01-21 18:40:29,441 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2022-01-21 18:57:08,384 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-21 18:57:08,675 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-01-21 18:57:09,279 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
